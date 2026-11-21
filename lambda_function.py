@@ -29,6 +29,4 @@ event2 = {
 
 print(lambda_handler(event2, None))
 
-/* Expected output:
-{'statusCode': 200, 'body': 'Hello Malika! Your age is 20.'}
-{'statusCode': 200, 'body': 'Hello Rahul! Your age is 22.'} */
+
