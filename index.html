@@ -4,36 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malika's Serverless API Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f2f5fa;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .container {
-            max-width: 650px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-        }
-        h1 { color: #173b70; }
-        p { line-height: 1.6; }
-    </style>
+
+    <title>Student Information | Serverless API</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="container">
+
         <h1>Student Information – Serverless API</h1>
-        <p>Welcome to my AWS & DevOps Internship project!</p>
-        <h2>Technologies</h2>
-        <p>Python | AWS Lambda | API Gateway | JSON</p>
+
+        <p class="intro">
+            Welcome to my AWS & DevOps Internship project!
+            This project demonstrates a simple serverless API
+            using Python and AWS concepts.
+        </p>
+
+        <h2>About the Project</h2>
+
+        <p>
+            A Student Information API that demonstrates how
+            GET and POST requests are handled using a
+            Python Lambda-style function.
+        </p>
+
+        <h2>Technologies Used</h2>
+
+        <div class="tech-list">
+            <span>Python</span>
+            <span>AWS Lambda</span>
+            <span>API Gateway</span>
+            <span>JSON</span>
+        </div>
+
         <h2>API Endpoints</h2>
-        <p>GET /students – Retrieve student details</p>
-        <p>POST /students – Submit student details</p>
-        <p>Developed and tested locally using Python.</p>
-        <p>Actual AWS deployment is pending.</p>
+
+        <div class="endpoint">
+            <h3>GET /students</h3>
+            <p>Retrieves student information.</p>
+            <span class="status">Status Code: 200</span>
+        </div>
+
+        <div class="endpoint">
+            <h3>POST /students</h3>
+            <p>Accepts student information and returns a success response.</p>
+            <span class="status">Status Code: 201</span>
+        </div>
+
+        <h2>Serverless Architecture</h2>
+
+        <div class="architecture">
+            <div>Client</div>
+            <span>↓</span>
+            <div>API Gateway</div>
+            <span>↓</span>
+            <div>AWS Lambda</div>
+            <span>↓</span>
+            <div>JSON Response</div>
+        </div>
+
+        <h2>Project Result</h2>
+
+        <p>
+            Successfully tested GET and POST request handling
+            locally using Python.
+        </p>
+
+        <p class="note">
+            Note: This project is a local simulation.
+            Actual AWS Lambda and API Gateway deployment is pending.
+        </p>
+
+        <footer>
+            <p>Created by Malika | AWS & DevOps Internship 2026</p>
+        </footer>
+
     </div>
+
 </body>
 </html>
